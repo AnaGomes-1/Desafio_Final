@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: 15vh;
+    background-color: black;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header div .logo{
+    height: 7vh;
+}
+
+header nav{
+    width: 18%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav img{
+    height: 5vh;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+}
+
+/*Main cachorro rosa*/
+
+.cachorrorosa {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    background-image: url(cachorrorosa.png);
+    background-size: 100% 120vh;
+    background-repeat: no-repeat;
+
+
+}
+
+.cachorrorosa div{
+    width: 40%;
+    margin-left: 9rem;
+}
+
+
+h2 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: "Roboto Serif", serif;
+    display: flex;
+    padding-bottom: 10vh;
+    padding-left: 57vh;
+    
+}
+
+.logo2 {
+    display: flex;
+    padding-left: 70vh;
+    padding-bottom:40vh;
+}
+
+/*Main cachorro leão*/
+.cachorroleao {
+    background-image: url(cachorroleao.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: 100% 120vh;
+    display: flex;
+    align-items: center;
+}
+
+.cachorroleao div{
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.titulo1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto1{
+    font-size: 2rem;
+    color: black;
+    font-family: "Roboto Serif", serif;
+    margin: 2rem 0 2rem 0;
+}
+
+.botao1 {
+    font-size: 38px;
+    background-color: #3A342F;
+    color: #F4F2F3;
+    font-size: 2rem;
+    width: 50%;
+    height: 10vh;
+    border-radius: 44px;
+}
+
+/*Main cachorro pequeno*/
+.cachorropequeno {
+    background-image: url(dogrosa.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: 100% 120vh;
+    display: flex;
+    align-items: center;
+}
+
+.cachorropequeno div{
+    width: 40%;
+    margin-left: 50rem;
+}
+
+.titulo2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto2{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: "Roboto Serif", serif;
+    margin: 2rem 0 2rem 0;
+}
+
+.botao2 {
+    font-size: 38px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 2rem;
+    width: 50%;
+    height: 10vh;
+    border-radius: 44px;
+}
